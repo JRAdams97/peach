@@ -1,9 +1,12 @@
 local class = require 'lib/middleclass'
-
-local Stage = class('Stage')
+local timer = require 'lib/timer'
 
 function love.load()
 	
+end
+
+function love.update(dt)
+
 end
 
 function love.draw()
